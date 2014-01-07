@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+	<title>Validating</title>
+</head>
+<body>
+	<h2>{{.Message}}</h2>
+	<h3>Found...</h3>
+	<ul>
+		{{range .Names}}
+		<li>{{.Value.firstName}}&nbsp;{{.Value.lastName}}</li>
+		{{end}}
+	</ul>
+</body>
+</html>		
